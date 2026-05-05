@@ -1,0 +1,373 @@
+/* =========================================================
+   Wave Energy Converter — shared stylesheet
+   Simple, accessible, responsive
+   ========================================================= */
+
+/* ----- Reset & base ------------------------------------ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f4f8fb;
+  color: #1a1a2e;
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----- Skip link (accessibility) ----------------------- */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  padding: 0.5rem 1rem;
+  background: #005ea6;
+  color: #fff;
+  font-size: 0.9rem;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+/* ----- Site header ------------------------------------- */
+header {
+  background-color: #005ea6;
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header a:hover,
+header a:focus {
+  text-decoration: underline;
+}
+
+.site-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
+.site-subtitle {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-top: 0.2rem;
+}
+
+/* ----- Main navigation --------------------------------- */
+nav {
+  background-color: #003f73;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  gap: 0;
+}
+
+nav a {
+  display: block;
+  padding: 0.65rem 1rem;
+  color: #cce4f7;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #005ea6;
+  color: #fff;
+  outline: none;
+}
+
+nav a[aria-current="page"] {
+  color: #fff;
+  border-bottom: 3px solid #7ec8e3;
+}
+
+/* ----- Main content ------------------------------------ */
+main {
+  flex: 1;
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* ----- Typography -------------------------------------- */
+h1 {
+  font-size: 2rem;
+  color: #003f73;
+  margin-bottom: 0.5rem;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #005ea6;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #cce4f7;
+  padding-bottom: 0.25rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  color: #1a1a2e;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* ----- Links ------------------------------------------- */
+a {
+  color: #005ea6;
+}
+
+a:hover,
+a:focus {
+  color: #003f73;
+  text-decoration: underline;
+}
+
+/* ----- Lead paragraph ---------------------------------- */
+.lead {
+  font-size: 1.1rem;
+  color: #2c3e6a;
+  margin-bottom: 1.5rem;
+}
+
+/* ----- Card grid (home page) --------------------------- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #cce4f7;
+  border-radius: 6px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #003f73;
+}
+
+.card p {
+  flex: 1;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.card a.btn {
+  align-self: flex-start;
+}
+
+/* ----- Buttons ----------------------------------------- */
+.btn {
+  display: inline-block;
+  padding: 0.45rem 1rem;
+  background-color: #005ea6;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  transition: background-color 0.15s;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #003f73;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: #7ec8e3;
+  color: #003f73;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #5bb4d0;
+  color: #003f73;
+}
+
+/* ----- Info / callout boxes ---------------------------- */
+.callout {
+  background-color: #e6f2fb;
+  border-left: 4px solid #005ea6;
+  padding: 0.85rem 1.1rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.callout p {
+  margin: 0;
+  font-size: 0.97rem;
+}
+
+.callout-caution {
+  background-color: #fff8e1;
+  border-left-color: #f59e0b;
+}
+
+/* ----- Lesson breadcrumb / back-link ------------------- */
+.back-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.88rem;
+  margin-bottom: 1.25rem;
+  display: block;
+}
+
+/* ----- Lesson navigation links (prev / next) ----------- */
+.lesson-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #cce4f7;
+}
+
+/* ----- Applet embed ------------------------------------ */
+.applet-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  background: #000;
+  border: 2px solid #003f73;
+  border-radius: 6px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.applet-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.applet-placeholder {
+  color: #7ec8e3;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* ----- Math / equation display ------------------------- */
+.equation {
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.05rem;
+  background: #e6f2fb;
+  border: 1px solid #cce4f7;
+  border-radius: 4px;
+  padding: 0.6rem 1rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* ----- Footer ------------------------------------------ */
+footer {
+  background-color: #003f73;
+  color: #cce4f7;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+}
+
+footer a {
+  color: #7ec8e3;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #fff;
+}
+
+/* ----- Content lists (within lessons) ------------------ */
+.content-list {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content-list li {
+  margin-bottom: 0.3rem;
+}
+
+.content-list-spaced {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.9;
+}
+
+/* ----- Spacing utilities ------------------------------- */
+.mt-2 {
+  margin-top: 2rem;
+}
+
+/* ----- Applet placeholder text ------------------------- */
+.applet-placeholder-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.applet-placeholder-note {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* ----- Responsive tweaks ------------------------------- */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEC Simulator — Point-Absorber Applet</title>
+  <meta name="description"
+    content="Browser-based heaving point-absorber simulator. Adjust wave parameters and power take-off damping to explore wave energy conversion." />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <style>
+    /* Applet-page-specific overrides */
+    main {
+      max-width: 980px;
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <div class="site-title">
+      <a href="../index.html">Wave Energy Converter</a>
+    </div>
+    <div class="site-subtitle">An educational point-absorber simulator</div>
+  </header>
+
+  <nav aria-label="Site navigation">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../lessons/what-is-wave-energy.html">What Is Wave Energy?</a></li>
+      <li><a href="../lessons/resonance-and-tuning.html">Resonance &amp; Tuning</a></li>
+      <li><a href="../lessons/power-from-waves.html">Power from Waves</a></li>
+      <li><a href="index.html" aria-current="page">Run the Applet</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content">
+
+    <a class="back-link" href="../index.html">&larr; Back to home</a>
+
+    <h1>Point-Absorber Simulator</h1>
+
+    <p class="lead">
+      Use the controls inside the applet to set wave parameters (height, period) and
+      the power take-off damping, then observe how the buoy responds and how much
+      average power is extracted.
+    </p>
+
+    <div class="callout callout-caution">
+      <p>
+        <strong>Simplified model:</strong> This simulator uses a linearized
+        spring-mass-damper approximation. It does not model radiation damping,
+        wave diffraction, nonlinear hydrodynamics, mooring dynamics, or irregular
+        sea states. Use it to build intuition, not to design real devices.
+      </p>
+    </div>
+
+    <!-- Godot HTML5 export lives in this directory.
+         When the export is present, replace the placeholder below with:
+           <canvas id="canvas"></canvas>
+         and include the generated Godot loader scripts. -->
+    <div class="applet-container" role="img"
+         aria-label="Wave energy converter simulator applet (loading)">
+      <div class="applet-placeholder">
+        <p class="applet-placeholder-title">
+          &#127754; Simulator
+        </p>
+        <p class="applet-placeholder-note">
+          The interactive applet will appear here once the Godot export is
+          added to this directory.
+        </p>
+      </div>
+    </div>
+
+    <h2>How to Use the Simulator</h2>
+    <ol class="content-list-spaced">
+      <li>
+        <strong>Set the wave period</strong> — try values between 4 s and 20 s.
+        Longer periods correspond to calmer, slow ocean swell.
+      </li>
+      <li>
+        <strong>Set the wave height</strong> — the amplitude of the incoming wave.
+        Larger waves carry more energy.
+      </li>
+      <li>
+        <strong>Adjust PTO damping</strong> — find the value that maximizes the
+        displayed average power. Notice that too little or too much damping both
+        reduce power output.
+      </li>
+      <li>
+        <strong>Observe resonance</strong> — tune the wave period to match the
+        buoy's natural frequency and watch the response amplitude grow.
+      </li>
+    </ol>
+
+    <h2>Background Reading</h2>
+    <ul class="content-list">
+      <li><a href="../lessons/what-is-wave-energy.html">What Is Wave Energy?</a> — start here if you are new to the topic.</li>
+      <li><a href="../lessons/resonance-and-tuning.html">Resonance &amp; Tuning</a> — why matching frequencies matters.</li>
+      <li><a href="../lessons/power-from-waves.html">Power from Waves</a> — how force and velocity combine to produce power.</li>
+    </ul>
+
+  </main>
+
+  <footer>
+    <p>
+      Wave Energy Converter Educational Simulator &mdash;
+      University of Houston MECC-C COOGS |
+      <a href="https://github.com/uh-mecc-c-coogs/2d_wec">View source on GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
