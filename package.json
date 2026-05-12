@@ -1,0 +1,26 @@
+{
+  "name": "2d_wec",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uh-mecc-c-coogs/2d_wec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/uh-mecc-c-coogs/2d_wec/issues"
+  },
+  "homepage": "https://github.com/uh-mecc-c-coogs/2d_wec#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}
