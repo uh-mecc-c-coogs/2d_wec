@@ -4,5 +4,9 @@
 #Obsidian 
 src/.obsidian/workspace.json 
 
+#Node.js 
+node_modules/
+
+
 
 
