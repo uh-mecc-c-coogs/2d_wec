@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "96e6a0eaa77e34c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "84c913d6616ccbcf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88e4cb284f5559b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "what-is-wave-enrgy-harvesting.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "what-is-wave-enrgy-harvesting"
+            }
+          },
+          {
+            "id": "4fb885d241029a2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resonance-and-tuning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "resonance-and-tuning"
+            }
+          },
+          {
+            "id": "ece1166e7a9e4d16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "7fab30563281cdf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "applet/index.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eebda11153f14a2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3da85691aaad7258",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "135d1697742b5f7f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "572d23794b8a122f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "147a64e3653727f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a624666cec38e29e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05c0ac8980366a3a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "fig_typesPowerTakeOff.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from fig_typesPowerTakeOff"
+            }
+          },
+          {
+            "id": "4a4fe00ccc5dc44c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "284ea7e8e27db50a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "fig_typesPowerTakeOff.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of fig_typesPowerTakeOff"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "webpage-html-export:Export as HTML": false
+    }
+  },
+  "active": "7fab30563281cdf0",
+  "lastOpenFiles": [
+    "classify-wecs.md",
+    "applet/index.md",
+    "index.md",
+    "types-of-wecs.md",
+    "key-components-of-wec.md",
+    "what-is-wave-enrgy-harvesting.md",
+    "wec-comparison.md",
+    "paid-time-off.md",
+    "enormous-amount-of-energy.md",
+    "some-historical-information.md",
+    "what-is-wave-energy.md",
+    "power-from-waves.md",
+    "resonance-and-tuning.md",
+    "applet/mecc_wecc.wasm",
+    "applet/mecc_wecc.png",
+    "applet/mecc_wecc.pck",
+    "applet/mecc_wecc.js",
+    "applet/mecc_wecc.icon.png",
+    "applet/mecc_wecc.html",
+    "applet/mecc_wecc.audio.worklet.js",
+    "applet/mecc_wecc.audio.position.worklet.js",
+    "applet/mecc_wecc.apple-touch-icon.png",
+    "applet/index.html",
+    "applet",
+    "fig_typesPowerTakeOff.png",
+    "figures/fig_typesPowerTakeOff.png",
+    "figures/fig_pointAbsorber.gif",
+    "figures/fig_oswec.gif",
+    "figures/fig_oscillatingWaterColumn.gif",
+    "figures/fig_mwec.gif",
+    "figures/fig_classByOrientation2.png",
+    "figures",
+    "untitled folder"
+  ]
+}
