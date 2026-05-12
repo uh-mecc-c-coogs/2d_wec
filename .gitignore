@@ -2,8 +2,8 @@
 .DS_Store
 
 #Obsidian 
-src/.obsidian/workspace.json 
-
+/src/.obsidian/workspace.json
+src/.obsidian/workspace.json
 #Node.js 
 node_modules/
 /_site/*
