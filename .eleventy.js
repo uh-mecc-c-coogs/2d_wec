@@ -4,7 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/applet");
 
   return {
-    pathPrefix: "/2D_wec/",
+    pathPrefix: "/2d_wec/",
     dir: {
       input: "src",
       output: "_site",
