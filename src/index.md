@@ -15,6 +15,10 @@ This site uses a simplified, browser-based simulator to help students and curiou
 ## About the Simulator 
 The applet models a <em>heaving point absorber</em> — a buoy that bobs up and down as waves pass beneath it. A power take-off system connected to the buoy converts that motion into electricity. The simulation is intentionally simplified: it captures the key physics of resonance and energy extraction while leaving out advanced effects such as radiation damping, diffraction, nonlinear hydrodynamics, and mooring dynamics. 
 
+<p>
+<a class="btn" href="applet/index/">Open the Simulator</a>
+</p>
+
 ## Lessons 
 Work through the lessons in order, or jump to any topic that interests you. 
 
@@ -38,7 +42,7 @@ Work through the lessons in order, or jump to any topic that interests you.
 		<p>
 			Explore how force and velocity together determine the power extracted by a wave energy converter, and what limits ultimate performance.
 		</p>
-		<a class="btn btn-secondary" href="lessons/power-from-waves">Read lesson</a>
+		<a class="btn btn-secondary" href="lessons/power-from-waves/">Read lesson</a>
 	</div>
 </div>
 
