@@ -26,7 +26,7 @@ Work through the lessons in order, or jump to any topic that interests you.
 	<div class="card">
 		<h3>What Is Wave Energy?</h3>
 		<p>
-			Learn where wave energy comes from, how it is measured, and why the ocean is such a vast potential energy resource.
+			Learn where wave energy comes from, how it is measured, and why the ocean is such a vast potential energy resource
 		</p>
 		<a class="btn btn-secondary" href="what-is-wave-energy/index.html">Read lesson</a>
 	</div>
