@@ -57,8 +57,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "applet/index.md",
-                "mode": "preview",
+                "file": "index.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -187,8 +187,15 @@
   },
   "active": "7fab30563281cdf0",
   "lastOpenFiles": [
-    "classify-wecs.md",
+    "_includes/base.njk.sb-fe12ab88-BYvnah",
     "applet/index.md",
+    "_includes/base.njk",
+    "_includes",
+    "untitled folder",
+    "assets/css/style.css",
+    "assets/css",
+    "assets",
+    "classify-wecs.md",
     "index.md",
     "types-of-wecs.md",
     "key-components-of-wec.md",
@@ -206,19 +213,13 @@
     "applet/mecc_wecc.js",
     "applet/mecc_wecc.icon.png",
     "applet/mecc_wecc.html",
-    "applet/mecc_wecc.audio.worklet.js",
-    "applet/mecc_wecc.audio.position.worklet.js",
     "applet/mecc_wecc.apple-touch-icon.png",
-    "applet/index.html",
-    "applet",
     "fig_typesPowerTakeOff.png",
     "figures/fig_typesPowerTakeOff.png",
     "figures/fig_pointAbsorber.gif",
     "figures/fig_oswec.gif",
     "figures/fig_oscillatingWaterColumn.gif",
     "figures/fig_mwec.gif",
-    "figures/fig_classByOrientation2.png",
-    "figures",
-    "untitled folder"
+    "figures/fig_classByOrientation2.png"
   ]
 }
